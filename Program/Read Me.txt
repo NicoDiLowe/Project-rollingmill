@@ -1,0 +1,15 @@
+Mikrokontroler to raspberry pi pico, "kod do pico" nalezy otwierać w Arduino IDE.
+Żeby programować pico w Arduino IDE nalezy pobrać rozszerzenie "Arduino Mbed OS RP2040 Boards" w menadzerze płytek.
+(Jest to najprostsze rozwązanie jakie udało się osiągnąć)
+
+Do wyświetlaczy 7 segmentowych w folderze dołaczona jest biblioteka "TM1637TinyDisplay-master"
+Do wyświetlacza LCD również dołaczona jest biblioteka, ale nie udało się jej skompilować
+(biblioteka jest do arduino, może lepeij użyć biblioteki do pico)
+
+Pinout'y są opisane w kodzie i dodaję obraz "pinout" gdzie wszystko jest opisane
+
+Przetwornica step-down zasila pico napięciem 5v 
+Wyświetlacze są zasiale z wyjścia pico 3.3v 
+Przyciki zwierają do masy
+
+Opis działania układu zawarty jest w pliku "opis rozwązania"
